@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+}
+.navbar {
+  padding: 2% 5%;
+}
+.container1 {
+  text-align: center;
+  background-color: #202635;
+  margin: 2%;
+}
+
+.text-react {
+  padding: 5%;
+  text-align: justify;
+}
+
+.text-react h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 5em;
+  padding-bottom: 5%;
+  word-spacing: -10px;
+}
+.text-react p {
+  color: white;
+  font-size: 1.3em;
+  text-align: justify;
+  max-width: 22vw;
+  padding-bottom: 5%;
+}
+.btn {
+  font-size: 1.5em;
+  font-weight: 900;
+  background-color: white;
+  color: #202635;
+  padding: 5%;
+}
+
+.img-g {
+  max-width: 50vw;
+  max-height: 40vh;
+}
+
+.img-m {
+  max-width: 20vw;
+}
+
+.img-p {
+  max-width: 10vw;
+}
+
+.container2 {
+  margin: 15% 10%;
+}
+
+.text-icon {
+  max-width: 20vw;
+  padding: 3%;
+}
+
+.text-icon h2 {
+  color: #202635;
+  font-weight: 700;
+  text-align: center;
+}
+
+.text-icon p {
+  font-weight: 700;
+  color: #b1b1b1;
+  font-size: 1.2em;
+  text-align: center;
+}
