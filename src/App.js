@@ -16,18 +16,18 @@ function App() {
           <img src={ironlogo} />
           <img src={menuimg} />
         </header>
-        <div className="d-flex justify-content-between ">
+        <div className="d-flex justify-content-center ">
           <div className="text-react align-items-center  ">
-            <h1>Say hello to ReactJS</h1>
+            <h1 className="title">Say hello to ReactJS</h1>
 
-            <p>
+            <p className="intro-p">
               You will learn how to use the most popular frontend library, and
               become a super Ninja developer.
             </p>
 
-            <button className="btn ">Awesome!</button>
+            <p className="text-awesome ">Awesome!</p>
           </div>
-          <div className="background-images align-items-center ">
+          <div className="background-images col md-2 ">
             <img src={backLogo} className="img-g" />
             <img src={backLogo} className="img-m " />
             <img src={backLogo} className="img-m " />
@@ -54,12 +54,12 @@ function App() {
           <div className="col md-3 text-icon">
             <img src={icon3} />
             <h2>Single-Way</h2>
-            <p>A set of immutable values are passed to the component's</p>
+            <p>A set of immutable values are passed to the component's.</p>
           </div>
           <div className="col md-3 text-icon">
             <img src={icon4} />
             <h2>JSX</h2>
-            <p>Statically-typed, designed to run on modern browsers</p>
+            <p>Statically-typed, designed to run on modern browsers.</p>
           </div>
         </div>
       </div>

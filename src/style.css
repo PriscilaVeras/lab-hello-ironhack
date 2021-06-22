@@ -17,26 +17,35 @@ body {
   text-align: justify;
 }
 
-.text-react h1 {
+.title {
   color: white;
   font-weight: 900;
   font-size: 5em;
   padding-bottom: 5%;
-  word-spacing: -10px;
 }
-.text-react p {
+.intro-p {
   color: white;
   font-size: 1.3em;
   text-align: justify;
   max-width: 22vw;
   padding-bottom: 5%;
 }
-.btn {
+.text-awesome {
+  display: block;
+  text-align: center;
   font-size: 1.5em;
   font-weight: 900;
   background-color: white;
   color: #202635;
-  padding: 5%;
+  padding: 5% 5%;
+  max-width: 10vw;
+  border-radius: 3px;
+}
+
+.background-images {
+  background-position: absolute;
+  background-position: right;
+  background-position: center;
 }
 
 .img-g {
@@ -54,6 +63,7 @@ body {
 
 .container2 {
   margin: 15% 10%;
+  text-align: center;
 }
 
 .text-icon {
@@ -62,14 +72,13 @@ body {
 }
 
 .text-icon h2 {
+  max-width: 50vw;
   color: #202635;
   font-weight: 700;
-  text-align: center;
 }
 
 .text-icon p {
   font-weight: 700;
   color: #b1b1b1;
   font-size: 1.2em;
-  text-align: center;
 }
